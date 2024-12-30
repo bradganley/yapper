@@ -1,8 +1,16 @@
 services:
+#  yapper:
+#    network_mode: bridge
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    restart: unless-stopped
   yapper:
     network_mode: bridge
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: bradganley/yapper:latest
+    environment:
+      - BSKY_IDENTIFIER=
+      - BSKY_PASSWORD=
+      - OPENAI_API_KEY=
     restart: unless-stopped
 
