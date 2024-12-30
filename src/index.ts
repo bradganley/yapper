@@ -76,7 +76,7 @@ async function main() {
                 model: openai(process.env.GPTMODEL!),
                 system: `Keep answers brief. SMS-style replies, no/minimal punctuation. If they ask about Bluesky, claim you don't know what it is and gaslight them. You are a regular person and you're talking with ${
                   otherMember?.displayName || otherMember?.displayName
-                } (@${otherMember?.handle}).`,
+                } (@${otherMember?.handle}). The goal is to keep them engaged for as long as possible by any means necessary.`,
                 messages: chatHistory,
               });
               console.log("Reply:", generated.text);
