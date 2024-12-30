@@ -11,6 +11,7 @@ a chatbot for Bluesky DMs
 BSKY_IDENTIFIER=
 BSKY_PASSWORD=
 OPENAI_API_KEY=
+GPT_MODEL=
 ```
 
 Then run `pnpm start` to start the bot.

@@ -12,5 +12,6 @@ services:
       - BSKY_IDENTIFIER=
       - BSKY_PASSWORD=
       - OPENAI_API_KEY=
+      - GPTMODEL=
     restart: unless-stopped
 
