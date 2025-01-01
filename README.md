@@ -12,6 +12,7 @@ BSKY_IDENTIFIER=
 BSKY_PASSWORD=
 OPENAI_API_KEY=
 GPT_MODEL=
+#PROMPT="Optional Prompt"
 ```
 
 Then run `pnpm start` to start the bot.
