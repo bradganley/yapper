@@ -13,5 +13,6 @@ services:
       - BSKY_PASSWORD=
       - OPENAI_API_KEY=
       - GPTMODEL=
+      # - PROMPT="Optional Prompt"
     restart: unless-stopped
 
